@@ -1,0 +1,10 @@
+* One-to-many(Foreign Key) relation models including built-in User model.
+* Validators as a model field attribute.
+* Nested ModelSerializers with the use of related_name model attribute preventing integrity error, and 
+  StringRelatedField for better naming.
+* Generics class with perform_create overwrite.
+* Built-in and Custom Permissions
+* Preventing multiple comments from the same user.
+* A user can see only its own comment.
+* Pagination
+* Populating User and Book models using Faker and requests library.(fake_data.py in scripts folder)
