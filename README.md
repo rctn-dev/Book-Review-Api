@@ -1,11 +1,11 @@
 # Book-Review-Api
-Book Review Api: Django Rest Framework with Faker and Requests Library
-Models: Book, Comment, User
-API Endpoints:
-   api/book-view/                  # list and create action methods
-   api/book-view/<int:pk>/         # retrieve, update, and destroy action methods
-   api/comment-view/<int:pk>/      # retrieve, update, and destroy action methods
-   api/book-view/<int:pk>/comment/ # create action method
+*Book Review Api: Django Rest Framework with Faker and Requests Library
+*Models: Book, Comment, User
+*API Endpoints:
+   - api/book-view/                  # list and create action methods
+   - api/book-view/<int:pk>/         # retrieve, update, and destroy action methods
+   - api/comment-view/<int:pk>/      # retrieve, update, and destroy action methods
+   - api/book-view/<int:pk>/comment/ # create action method
    
 Some Specs:
 * One-to-many(Foreign Key) relation models including built-in User model.
