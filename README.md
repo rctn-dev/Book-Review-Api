@@ -24,7 +24,7 @@ Some Important Notes:
 There is a pipfile for fast-installing the related libraries, it is better you install pipenv, which combines pip and venv, and use it to install libraries within the terminal,such as
     - >> pipenv install
 * The command above will automatically install all necessary libraries.
-* Before starting the  server with the following command, amke sure you employ the python interpreter inside the virtual environment.
+* Before starting the  server with the following command, make sure you employ the python interpreter located inside the virtual environment.
     - >> python manage.py runserver
 * It is easier you populate the User database with admin panel.
 * Since endpoints can only be used by authenticated users, make sure you login with one of the users.
