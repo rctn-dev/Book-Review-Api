@@ -10,6 +10,7 @@
    - > python manage.py makemigrations
    - > python manage.py migrate
    - > python manage.py createsuperuser
+
 Some Specs:
 * One-to-many(Foreign Key) relation models including built-in User model.
 * Validators as a model field attribute.
