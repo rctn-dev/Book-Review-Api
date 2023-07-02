@@ -6,7 +6,10 @@
    - api/book-view/<int:pk>/         # retrieve, update, and destroy action methods
    - api/comment-view/<int:pk>/      # retrieve, update, and destroy action methods
    - api/book-view/<int:pk>/comment/ # create action method
-   
+* Built-in sqlite database is NOT added. You can create it by making migrations, and poulate it with the admin panel by creating a superuser
+   - > python manage.py makemigrations
+   - > python manage.py migrate
+   - > python manage.py createsuperuser
 Some Specs:
 * One-to-many(Foreign Key) relation models including built-in User model.
 * Validators as a model field attribute.
