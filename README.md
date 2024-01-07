@@ -26,7 +26,7 @@
   
 **Some Important Notes**:
 * For the _User_ model, the user creation is not handled by the endpoint, use either _fake_data.py_ script or the admin panel to create it.
-There is a **pipfile** for fast-installing the related libraries, for which you need to install _pipenv_ first, which combines the functionalities of _pip_ and _venv_. The command above will automatically install all necessary libraries. 
+There is a **pipfile** for fast-installing the related libraries, for which you need to install _pipenv_ first, which combines the functionalities of _pip_ and _venv_. The command below will automatically install all necessary libraries. 
 ```console
    PS: > pipenv install
 ```
